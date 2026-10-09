@@ -1,3 +1,13 @@
+---
+title: DataTrust Agent
+emoji: 📊
+colorFrom: blue
+colorTo: indigo
+sdk: gradio
+app_file: app.py
+pinned: false
+---
+
 # DataTrust Agent
 
 An evidence-grounded AI agent that detects data-quality issues, explains their business impact, and proposes validated, human-approved corrections.
