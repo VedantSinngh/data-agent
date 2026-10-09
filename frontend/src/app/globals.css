@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-canvas text-body font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-ink font-sans tracking-tighter-2;
+  }
+}
+
+@layer components {
+  .btn-outline {
+    @apply rounded-full border border-white/25 px-6 py-2.5 text-sm font-sans text-ink transition-colors hover:bg-white/5;
+  }
+  
+  .btn-primary {
+    @apply rounded-full bg-ink px-6 py-2.5 text-sm font-sans text-canvas transition-colors hover:bg-ink-hover;
+  }
+  
+  .card {
+    @apply rounded-lg bg-canvas-card border border-hairline p-6;
+  }
+  
+  .label-mono {
+    @apply font-mono text-xs uppercase tracking-wide-1 text-body-mid;
+  }
+}

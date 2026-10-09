@@ -1,0 +1,47 @@
+[
+  {
+    "test_id": "eval-001",
+    "description": "Missing customer_id",
+    "expected_finding": {
+      "rule_id": "MISSING_VALUES",
+      "column": "customer_id",
+      "issue_type": "missing_value"
+    }
+  },
+  {
+    "test_id": "eval-002",
+    "description": "Duplicate rows",
+    "expected_finding": {
+      "rule_id": "DUPLICATE_RECORDS",
+      "column": "all",
+      "issue_type": "duplicate_row"
+    }
+  },
+  {
+    "test_id": "eval-003",
+    "description": "Duplicate transaction_id",
+    "expected_finding": {
+      "rule_id": "UNIQUE_KEY",
+      "column": "transaction_id",
+      "issue_type": "duplicate_key"
+    }
+  },
+  {
+    "test_id": "eval-004",
+    "description": "Invalid category case",
+    "expected_finding": {
+      "rule_id": "ALLOWED_CATEGORIES",
+      "column": "product_category",
+      "issue_type": "invalid_category"
+    }
+  },
+  {
+    "test_id": "eval-005",
+    "description": "Negative quantity",
+    "expected_finding": {
+      "rule_id": "NON_NEGATIVE",
+      "column": "quantity",
+      "issue_type": "range_violation"
+    }
+  }
+]

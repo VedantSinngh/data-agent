@@ -1,0 +1,11 @@
+transaction_id,customer_id,transaction_date,product_category,quantity,unit_price,region,sales_amount
+TXN-1001,C-204,2026-05-18,Electronics,2,799.00,South,1598.00
+TXN-1002,C-205,2026-05-18,Clothing,1,49.99,North,49.99
+TXN-1003,,2026-05-19,Electronics,3,199.00,East,597.00
+TXN-1004,C-207,2026-05-19,electronics,2,50.00,West,100.00
+TXN-1005,C-208,invalid-date,Home,-1,120.00,South,-120.00
+TXN-1006,C-209,2026-05-20,Clothing,1,100.00,UnknownRegion,100.00
+TXN-1006,C-209,2026-05-20,Clothing,1,100.00,UnknownRegion,100.00
+TXN-1008,C-210,2026-05-21,Electronics,2,300.00,North,500.00
+TXN-1009,C-211,2026-05-21,Home,10,20.00,East,200.00
+TXN-1010,C-212,2026-05-22,Clothing,1,0.00,West,0.00
